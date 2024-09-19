@@ -44,12 +44,4 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
 
  #define ARDUINO_NICE_NANO 1 // used in debug_cli.cpp to bypass 0.14 and 0.16 that are directly connected to 0.18 (reset)
 
-#define BATTERY_TYPE BATT_LIPO
-#define VBAT_PIN  4
-#define VCC_PIN 13
-#define VCC_POLARITY_ON 1
-
-#define  STATUS_BLE_LED_PIN  15  //blue = 0.15
-//#define  STATUS_KB_LED_PIN 17  //red = 0.17
-
 #endif /* HARDWARE_CONFIG_H */
